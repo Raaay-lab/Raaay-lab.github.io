@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" >
+ <title>Near Field Communication</title>
+ <script  src="js/jquery-3.4.1.min.js"  ></script>
+ <link rel="stylesheet" href="css/bootstrap.min.css"  >
+ <script src="js/bootstrap.min.js"  ></script>
+ <script src="js/popper.min.js" ></script>
+ <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+ <link rel="stylesheet" href="css/bootstrap.min.css"  >
+ <script src="js/bootstrap.min.js"  ></script>
+ <link rel="stylesheet"  href="css/style.css"  >
+ 
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+</head>
+    
+<script type="text/javascript">
+  $(document).ready(function(){
+     $("#menu").on("click","a", function (event) {
+         event.preventDefault();
+         var id  = $(this).attr('href'),
+             top = $(id).offset().top;
+         $('body,html').animate({scrollTop: top}, 1500);
+     });
+ });
+ </script>
+
+<body>
+  <a href name= "1"></a>
+ <header class="header">
+   <div class="container">
+     <div class="header__inner">
+       <div class="header__logo">Near Field Communication
+         <div class="head_t">
+            System
+         </div>
+       </div>
+       <nav id="menu" class="nav">
+         
+          <a class="nav__link" href="#2">Short history</a>
+          <a class="nav__link" href="#3">What is NFC</a>
+          <a class="nav__link" href="#4">How it works</a>
+          <a class="nav__link" href="#5">In Use</a>
+         
+       </nav>
+     </div>
+    </div>
+ </header>
+
+ <div class="intro">
+  <div class="container">
+   <div class="intro_inner">
+    <!-- <h2 class="intro__suptitle">Near Field Communication System</h2>-->
+     <h1 class="intro__title">Near Field Communication System</h1>
+     <a class="btn" href="#2">Learn more</a>
+    </div>
+                
+    
+  </div>
+ </div>
+ 
+ <section id="2" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptittle">Near Field Communication System</h3>
+        <h4 class="section_tittle">Short history</h4>
+        <div class="section_text">
+          <p class="tit">
+Near field communication (NFC) traces its roots back to radio-frequency identification (RFID).Radio-Frequency Identification (RFID) was invented by
+ Charles Walton as the as the first patent holder for RFID technology. RFID uses electromagnetic fields radio waves to automatically identify and capture
+ information stored on a RFID card/tag attached objects, where the RFID tag contains electronically-stored information.  A RFID tag can be read from up to many
+ meters away depends on the frequency bands, which the most common types are:Low Frequency, 120-150KHz, low data speed, reading distance about 1 to 10 cm.
+ High Frequancy, 13.56MHz, low to moderate data speed, reading distance about 2cm to 1 meter.
+ Ultra-High Frequency, 865-868 MHz (Europe)/902-928 MHz (North America). moderate to high data speed, reading distance about 1 to 12 meters. Indeed, NFC is actually
+ a subset of RFID with a shorter communication range for security purposes. In 2004, Nokia, Sony, and Philips came together
+ to form the NFC Forum. This group is dedicated to promoting the security, ease of use, and popularity of near field communication.
+ It aims to educate businesses about the technology and upholds standards that allow NFC to operate between different devices.
+ Those who wish to create NFC compliant devices must meet these standards set forth by the NFC Forum. This ensures that any user
+ with any NFC device can use it with any other NFC device or NFC tag. And now we can use the system to pay for our lunch.</p>
+        </div>
+      </div>
+      <div class="about">
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/shk2.jpg" alt="">
+          </div>
+          <div class="about__text">NFC </div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/shk.jpg" alt="">
+          </div>
+          <div class="about__text">NFC when paying</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/shk3.jpg" alt="">
+          </div>
+          <div class="about__text">NFC</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="statistics">
+    <div class="container">
+      <div class="stat">
+        <div class="stat_item">
+          <div class="stat_count">1983</div>
+          <div class="stat_text">Year of appearance</div>
+        </div>
+        <div class="stat_item">
+          <div class="stat_count">10 m</div>
+          <div class="stat_text">line of sight</div>
+
+        </div>
+        <div class="stat_item">
+          <div class="stat_count">Nokia 6131 NFC</div>
+          <div class="stat_text">The first phone with NFC </div>
+
+        </div>
+        <div class="stat_item">
+          <div class="stat_count">424 kbit/s</div>
+          <div class="stat_text">data rate</div>
+        </div>
+        <div class="stat_item">
+          <div class="stat_count">2004</div>
+          <div class="stat_text">Year of announcement </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section id="3" class="section2">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptittle">Near Field Communication System</h3>
+        <h4 class="section_tittle">What is NFC</h4>
+      </div>
+
+      <div class="work__item">
+        <img src="images/w1.jpg" class="work__img2">
+
+      </div>
+      <div class="work__item">
+        <div class="tit">
+          Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets.
+Contactless communication allows a user to wave the smartphone over a NFC compatible device to send information without needing to touch the devices
+together or go through multiple steps setting up a connection. Fast and convenient, NFC technology is popular in parts of Europe and Asia, and
+is quickly spreading throughout the United States. Near field communication maintains interoperability between different wireless communication
+methods like Bluetooth and other NFC standards including FeliCa — popular in Japan — through the NFC Forum. Founded in 2004 by Sony, Nokia, and Philips,
+the forum enforces strict standards that manufacturers must meet when designing NFC compatible devices. This ensures that NFC is secure and remains
+easy-to-use with different versions of the technology. Compatibility is the key to the growth of NFC as a popular payment and data communication method.
+It must be able to communicate with other wireless technologies and be able to interact with different types of NFC transmissions.
+The technology behind NFC allows a device, known as a reader, interrogator, or active device, to create a radio frequency current that
+communicates with another NFC compatible device or a small NFC tag holding the information the reader wants. Passive devices, such as the NFC
+tag in smart posters, store information and communicate with the reader but do not actively read other devices. Peer-to-peer communication through
+<img src="images/w2.jpg" class="work__img">
+two active devices is also a possibility with NFC. This allows both devices to send and receive information.
+Both businesses and individuals benefit from near field communication technology. By integrating credit cards, subway tickets, and paper coupons all into
+one device, a customer can board a train, pay for groceries, redeem coupons or store loyalty points, and even exchange contact information all with the
+wave of a smartphone. Faster transaction times mean less waiting in line and happier customers. Fewer physical cards to carry around means the customer
+is less likely to lose one or have it stolen. Who's currently in on the action with NFC technology and mobile payments? Google has launched Google Wallet
+that supports MasterCard PayPass, PayPal offers money transfers between smartphones, and other companies are expected to follow suit. As the technology grows,
+more NFC compatible smartphones will be available and more stores will offer NFC card readers for customer convenience.
+        </div>
+      </div>
+  </section>
+ 
+  <section  id="4" class="section3">
+    <div class="container">
+
+      <div class="section__header">
+        <h3 class="section__suptittle">Near Field Communication System</h3>
+        <h4 class="section_tittle">How it works</h4>
+      </div>
+
+      <div class="work__item">
+        
+        <img src="images/work.jpg" class="work__img">
+      </div>
+      <div class="work__item">
+        <div class="tit">
+          Bluetooth and Wi-Fi seem similar to near field communication on the surface. All three allow wireless communication and data exchange between digital devices like smartphones. Yet near field communication utilizes electromagnetic radio fields while technologies such as Bluetooth and Wi-Fi focus on radio transmissions instead.
+
+Near field communication, or NFC for short, is an offshoot of radio-frequency identification (RFID) with the exception that NFC is designed for use by devices within close proximity to each other. Three forms of NFC technology exist: Type A, Type B, and FeliCa. All are similar but communicate in slightly different ways. FeliCa is commonly found in Japan.
+
+Devices using NFC may be active or passive. A passive device, such as an NFC tag, contains information that other devices can read but does not read any information itself. Think of a passive device as a sign on a wall. Others can read the information, but the sign itself does nothing except transmit the info to authorized devices.
+<img src="images/work1.jpg" class="work__img2">
+Active devices can read information and send it. An active NFC device, like a smartphone, would not only be able to collect information from NFC tags, but it would also be able to exchange information with other compatible phones or devices and could even alter the information on the NFC tag if authorized to make such changes.
+
+To ensure security, NFC often establishes a secure channel and uses encryption when sending sensitive information such as credit card numbers. Users can further protect their private data by keeping anti-virus software on their smartphones and adding a password to the phone so a thief cannot use it in the event that the smartphone is lost or stolen. For more information on the specifications and different forms of NFC technology, view the rest of our technology pages.
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="5" class="section4">
+    <div class="section__header">
+      
+      <h4 class="section_tittle">In Use</h4>
+    </div>
+    <div class="container">
+      <div class="about">
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/1.jpg" alt="">
+          </div>
+          <div class="about__text">Appliance controlling</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/2.jpg" alt="">
+          </div>
+          <div class="about__text">Bluetooth Pairing</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/3.jpg" alt="">
+          </div>
+          <div class="about__text">Water Metering</div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/4.jpg" alt="">
+          </div>
+          <div class="about__text">Ambient setting</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/5.jpg" alt="">
+          </div>
+          <div class="about__text">Joining Wi-Fi</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/6.jpg" alt="">
+          </div>
+          <div class="about__text">Appliance Servicing</div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/7.jpg" alt="">
+          </div>
+          <div class="about__text">Disabling Residential Alarm</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/8.jpg" alt="">
+          </div>
+          <div class="about__text">Wireless Commissioning</div>
+        </div>
+        <div class="about_item">
+          <div class="about_img">
+            <img src="images/u4itelya/9.jpg" alt="">
+          </div>
+          <div class="about__text">Setting Unconnected Appliances</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+
+    <div class="section__header">
+      
+      <h4 class="section_tittle">Sources of information</h4>
+
+    </div>
+
+    <div class="container">
+      <div class="link">
+      
+        <div class="link__item">
+          <a class="btn" href="http://nearfieldcommunication.org/how-it-works.html">Link #1</a>
+        </div>
+
+        <div class="link__item">
+          <a class="btn" href="https://www.nfc.gov.in/history.html">Link #2</a>
+        </div>
+
+        <div class="link__item">
+          <a class="btn" href="https://www.computerworld.com/article/2493888/a-short-history-of-nfc.html">Link #3</a>
+        </div>
+
+        <div class="link__item">
+          <a class="btn" href="https://en.wikipedia.org/wiki/Near-field_communication">Link #4</a>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  
+
+</body>
+
+</html>
