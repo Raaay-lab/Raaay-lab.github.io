@@ -1,0 +1,182 @@
+.MenuMiddle{
+	margin-left:20%;
+	margin-right:20%;
+	display: flex;
+	justify-content: space-between;
+}
+.copy{
+	font: 10px Verdana, Geneva, sans-serif;
+    text-align: center;
+	color: white;
+}
+
+.event-holder{
+	margin-left:25%;
+	margin-right: 25%;
+	margin-top: 3%;
+	height: 1100px;
+	background-color: rgba(169,169,169,0.2);
+	border-radius: 10px 10px 10px 10px;
+
+}
+.otstyp{
+	height: 10px;
+}
+.event_month{
+	font-family:Open Sans,sans-serif;
+	color:white;
+	background-color: rgba(169,169,169,0.4);
+	margin-left: 10%;
+	margin-right:10%;
+	border-radius:10px 10px 10px 10px;
+	text-decoration: none;
+}
+.okno{
+	background-color:#330066;
+	border-radius: .25rem;
+	padding: .375rem .75rem;
+}
+.information{
+font-family: Open Sans,sans-serif;
+font-size: 12px;
+line-height: 1.66667;
+color: inherit;
+font-weight: inherit;
+}
+.bigevents{
+font-family: Open Sans,sans-serif;
+font-size: 12px;
+line-height: 1.66667;
+text-decoration: none;
+box-shadow: 0 1px 2px 0 rgba(50,50,50,.4);
+color: inherit;
+font-weight: inherit;
+margin-right: 10px;
+margin-top: 10px;
+flex: 1 0 0;
+min-width: 250px;
+background-color: #fff!important;
+color: #292929;
+text-decoration: none;
+}
+.info{
+font-family: Open Sans,sans-serif;
+font-size: 12px;
+line-height: 1.66667;
+color: inherit;
+font-weight: inherit;
+padding: 5px 10px;
+color: #292929;
+text-decoration: none;
+}
+.tima{
+font-family: Open Sans,sans-serif;
+line-height: 1.66667;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+font-weight: 700;
+font-size: 14px;
+color:white;
+text-decoration: none;
+}
+.location{
+font-family: Open Sans,sans-serif;
+font-size: 12px;
+line-height: 1.66667;
+color: inherit;
+font-weight: inherit;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+color:white;
+text-decoration: none;
+}
+.table{
+font-family: Open Sans,sans-serif;
+font-size: 12px;
+color: inherit;
+font-weight: inherit;
+line-height: 1.3;
+border-collapse: collapse;
+width: 50%;
+color:white;
+text-decoration: none;
+}
+.information2{
+font-family: Open Sans,sans-serif;
+font-size: 12px;
+color: inherit;
+font-weight: inherit;
+border-top: 1px solid #ccc;
+line-height: 1.3;
+padding: 5px 10px;
+color: #292929;
+text-decoration: none;
+}
+.buttonNew{
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+box-sizing: border-box;
+display: inline-block;
+font-weight:700;
+text-align: center;
+vertical-align: middle;
+border: 1px solid transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: none;
+background: #800080;
+text-decoration: none;
+cursor: pointer;
+color: #fff;
+background-color:#800080; 
+border-color:#800080; 
+margin:3px%;
+}
+
+.buttonNew:active{
+	background:#330066;
+	color:white;
+	text-decoration:none;
+	border-color: #330066;
+}
+.buttonNew:hover {
+	background:#330066; 
+	color:white;
+	text-decoration:none;
+	border-color: #330066;
+}
+.okno{
+	background-color:#330066;
+	border-radius: .25rem;
+	padding: .375rem .75rem;
+}
+.kek{
+	background:#330066;
+	color:white;
+	text-decoration:none;
+	border-color: #330066;
+}
+.list{
+	background-color:#000a37;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
