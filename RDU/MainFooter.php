@@ -1,30 +1,15 @@
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset = "utf8">
-<link rel="stylesheet" type="text/css" href="css/stylesMain.css">
-<script src="js/jquery-3.4.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<script src="js/bootstrap.min.js"></script>
-<title>Real Dream University</title>
-</head>
-<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="Главная.php"><img src = "images/RDU.jpg" width = "127px" height = "45px"></a>
+  <a class="navbar-brand" href="Main.php"><img src = "images/RDU.jpg" width = "127px" height = "45px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="Главная.php">Главная<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Main.php">Главная<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Новости.php">Новости</a>
+        <a class="nav-link" href="News.php">Новости</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,15 +56,15 @@
 <div class = "list">
 <div class = "MenuMiddle">
 <div class = "okno">
-<a type="button" class="buttonNew" href="Турниры.php">Турниры</a>
+<a type="button" class="buttonNew" href="Tournaments.php">Турниры</a>
 </div><div class = "okno">
-<a type="button" class="buttonNew" href="О_ВУЗе.php">O RDU</a>
+<a type="button" class="buttonNew" href="RDU.php">RDU</a>
 </div><div class = "okno">
-<a type="button" class="buttonNew" href="Направления.php">Направления</a>
+<a type="button" class="buttonNew" href="Directions.php">Направления</a>
 </div><div class = "okno">
-<a type="button" class="buttonNew" href="Преподаватели.php">Преподаватели</a>
+<a type="button" class="buttonNew" href="Teachers.php">Преподаватели</a>
 </div><div class = "okno">
-<a type="button" class="buttonNew" href="Выпускники.php">Выпускники</a>
+<a type="button" class="buttonNew" href="Graduates.php">Выпускники</a>
 </div>
 </div>
 <div class = "fon">
@@ -102,5 +87,3 @@
  </div>
 </body>
 </html>
-
-</span><span>
