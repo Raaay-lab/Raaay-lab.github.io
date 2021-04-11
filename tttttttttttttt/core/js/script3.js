@@ -1,8 +1,8 @@
 var slides3 = document.querySelectorAll('.pic3');
 var massImg3 = [];
 var dl3 = slides3.length;
-var furie = "core/index3.html";
-var mele = "core/index7.html";
+var furie = "https://raaay-lab.github.io/philosophy/core/index3.html";
+var mele = "https://raaay-lab.github.io/philosophy/core/index7.html";
 
 
 
