@@ -1,0 +1,54 @@
+body{
+	margin:0;
+	height:auto;
+	background-color:#000a37;
+}
+.fon{
+	height:auto;
+	background-color:#000a37;
+	width:100%;
+}
+.ramka{
+	font:13px/16px Helvetica Neue,Helvetica,Arial,sans-serif;
+	border-radius:10px;
+	height:auto;
+	text-align:center;
+	background-color:rgba(169,169,169,0.2);
+	color:white;
+	margin-top:10%;
+	margin-left:35%;
+	margin-right:35%;
+	padding:1%;
+	width:auto;
+}
+h1{
+	font:13px/16px Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:2rem;
+	margin-bottom:2%;
+}
+.namefam{
+	display:block;
+	text-align:center;
+	padding-left:20%;
+	padding-right:20%;
+	width:auto;
+}
+.accept{
+	font:13px/16px Helvetica Neue,Helvetica,Arial,sans-serif;
+	border-radius:5px;
+	margin-bottom:1%;
+}
+.copy{
+	font: 10px Verdana, Geneva, sans-serif;
+    text-align: center;
+	color: white;
+	float:bottom;
+}
+.msg{
+	color: black;
+	font-weight: bold;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: pink;
+}

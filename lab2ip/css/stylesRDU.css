@@ -1,0 +1,87 @@
+.MenuMiddle{
+	margin-left:15%;
+	margin-right:15%;
+	display: flex;
+	justify-content: space-between;
+}
+.copy{
+	font: 10px Verdana, Geneva, sans-serif;
+    text-align: center;
+	color: white;
+}
+.okno{
+	background-color:#330066;
+	border-radius: .25rem;
+	padding: .375rem .75rem;
+}
+p{
+	text-align:left;
+	padding-bottom:5%;
+}
+.list{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top:2%;
+	height:auto;
+	background-color: rgba(105,105,105,0.2);
+	font: 18px Verdana, Geneva, sans-serif;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	position:relative;
+}
+.mainMenu{
+	background-color:#000a37;
+	height:auto;
+}
+.left{
+	border-radius: 5px 5px 5px 5px;
+	float:left;
+	height:250px;
+	width:350px;
+	margin-right:1%;
+	margin-left:1%;
+	margin-top:1%;
+}
+.right{
+padding-top:1%;
+}
+.buttonNew{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	box-sizing: border-box;
+	display: inline-block;
+	font-weight:700;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: none;
+	background: #800080;
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	background-color:#800080; 
+	border-color:#800080; 
+	margin:3px;
+}
+
+.buttonNew:active{
+	background:#330066;
+	color:white;
+	text-decoration:none;
+	border-color: #330066;
+}
+.buttonNew:hover {
+	background:#330066; 
+	color:white;
+	text-decoration:none;
+	border-color: #330066;
+}
+.kek{
+	background:#330066;
+	color:white;
+	text-decoration:none;
+	border-color: #330066;
+}
