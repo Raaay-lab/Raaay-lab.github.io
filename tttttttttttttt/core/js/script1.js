@@ -49,7 +49,7 @@ function textCreat1() {
     if (current1 == 0) {
         $('.section-text1').empty();
         var newElems = $(".section-text1")
-            .append("<h2><strong>Древнее ыыыыыыВремя.</strong><br>(3000 г. до н. э. — 476 г. н. э.)</h2>");
+            .append("<h2><strong>Древнее Время.</strong><br>(3000 г. до н. э. — 476 г. н. э.)</h2>");
         $('.section-text1').replaceWith(newElems);
     }
     if (current1 == 1) {
