@@ -1,8 +1,8 @@
 var slides1 = document.querySelectorAll('.pic1');
 var massIm1 = [];
 var dl1 = slides1.length;
-var platon1 = "core/index5.html";
-var avreliy1 = "core/index1.html";
+var platon1 = "Raaay-lab.github.io/philosophy/core/index5.html";
+var avreliy1 = "Raaay-lab.github.io/philosophy/core/index1.html";
 
 console.log(slides1)
 
