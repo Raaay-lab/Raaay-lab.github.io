@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="core/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="core/css/bootstrap.min.css">
+    <script src="core/js/bootstrap.min.js"></script>
+    <script src="core/js/popper.min.js"></script>
+    <script src="core/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-main.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <title>Society of the future at different times</title>
+</head>
+<script type="text/javascript">
+    $(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() != 0) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+        $('#toTop').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+        });
+    });
+</script>
+
+
+<a href name="1"></a>
+
+<body>
+    <div class="bl">
+        <div class="main-anime">
+            <div class="block1">
+                <div class="greeting">
+                    <h1 style="text-align: center;">Общество будущего</h1>
+                    <p style="text-align: center;">Ещё начиная с древних времён, люди начали задумываться о том, как будут жить их потомки, что будет с человечеством дальше и что нужно менять ради идеала. Так и появлялись произведения философов об обществе будущего. Некоторые мыслили
+                        о вполне реальных событиях, предсказывая ход истории и человеческого развития, а некоторые видели будущее нашего вида в утопии, идеальном мире с идеальными условиями. И поэтому, в различные временные эпохи существовали разные теории
+                        и мнения о том, как же будет выглядеть мир в будущем. Некоторые аспекты видения будущего были вполне правдивыми, ну а другим помешали непредвиденные обстоятельства, а так же ошибки людей. В наши дни каждый человек задумывается
+                        о том, что же будет дальше. Кто-то думает в масштабе одного человека(себя), а кто-то пытается предсказать ход всего человеческого рода.</p>
+                </div>
+                <div class="back-imp">
+                    <img src="core/images/imp1.jpg" class="kek" width="outdent">
+                    <div class="implement"></div>
+                </div>
+            </div>
+            <div class="divider-1">
+                <hr>
+            </div>
+            <div class="block2">
+                <div class="sub-title">
+                    <h2 style="text-align: center;">Здесь представлены философы и их мысли об идеальном будущем</h2>
+                </div>
+            </div>
+            <div class="divider-1">
+                <hr>
+            </div>
+            <div class="block1">
+                <div class="block2">
+                    <div class="section-text1">
+                        <h2>
+                            <strong>Древнее&nbsp;Время.</strong><br/>(3000 г. до н. э. — 476 г. н. э.)
+                        </h2>
+                    </div>
+                    <div class="slider1">
+                        <img src="core/images/pic1.jpg" class="pic1">
+                        <img src="core/images/pic2.jpg" class="pic1">
+                        <img src="core/images/pic3.jpg" class="pic1">
+                    </div>
+                    <div class="bbt2">
+                        <button class="gradient-button" onClick="moveRight1();">&lt;</button>
+                    </div>
+                    <div class="bbt1">
+                        <button class="gradient-button" onClick="moveLeft1();">&gt;</button>
+                    </div>
+                </div>
+                <div class="divider-1">
+                    <hr>
+                </div>
+                <div class="block2">
+                    <div class="section-text2">
+                        <h2>
+                            <strong>Средние&nbsp;века.</strong><br>(476 г. — конец XV в.)
+                        </h2>
+                    </div>
+                    <div class="slider2">
+                        <img src="core/images/pic22.jpg" class="pic2">
+                        <img src="core/images/mor thom.jpg" class="pic2">
+                        <img src="core/images/companello.jpg" class="pic2">
+                    </div>
+                    <div class="bbt2">
+                        <button class="gradient-button" onClick="moveRight2();">&lt;</button>
+                    </div>
+                    <div class="bbt1">
+                        <button class="gradient-button" onClick="moveLeft2();">&gt;</button>
+                    </div>
+                </div>
+                <div class="divider-1">
+                    <hr>
+                </div>
+                <div class="block2">
+                    <div class="section-text3">
+                        <h2>
+                            <strong>Новое&nbsp;время.</strong><br>(конец XV в. — 1918 г.)
+                        </h2>
+                    </div>
+                    <div class="slider3">
+                        <img src="core/images/pic33.jpg" class="pic3">
+                        <img src="core/images/furee.jpg" class="pic3">
+                        <img src="core/images/jannnn.jpg" class="pic3">
+                    </div>
+                    <div class="bbt2">
+                        <button class="gradient-button" onClick="moveRight3();">&lt;</button>
+                    </div>
+                    <div class="bbt1">
+                        <button class="gradient-button" onClick="moveLeft3();">&gt;</button>
+                    </div>
+                </div>
+                <div class="divider-1">
+                    <hr>
+                </div>
+                <div class="block2">
+                    <div class="section-text4">
+                        <h2>
+                            <strong>Новейшее&nbsp;время.</strong><br>(с 1918 г. — наше время)
+                        </h2>
+                    </div>
+                    <div class="slider4">
+                        <img src="core/images/pic44.jpg" class="pic4">
+                        <img src="core/images/edvard.jpg" class="pic4">
+                    </div>
+                    <div class="bbt2">
+                        <button class="gradient-button" onClick="moveRight4();">&lt;</button>
+                    </div>
+                    <div class="bbt1">
+                        <button class="gradient-button" onClick="moveLeft4();">&gt;</button>
+                    </div>
+                </div>
+                <div class="divider-1">
+                    <hr>
+                </div>
+                <div class="links-main">
+                    <div class="nirs">
+                        <p>Made for Student Science Week</p>
+                    </div>
+                    <div class="divider-1">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="toTop"> Наверх </div>
+</body>
+<script src="core/js/script1.js"></script>
+<script src="core/js/script2.js"></script>
+<script src="core/js/script3.js"></script>
+<script src="core/js/script4.js"></script>
+
+</html>
