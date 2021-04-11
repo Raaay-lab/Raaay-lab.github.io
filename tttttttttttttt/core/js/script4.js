@@ -1,7 +1,7 @@
 var slides4 = document.querySelectorAll('.pic4');
 var massimg4 = [];
 var dl4 = slides4.length;
-var ed = "core/index4.html";
+var ed = "https://raaay-lab.github.io/philosophy/core/index4.html";
 
 function createImg4() {
     for (var i = 0; i < slides4.length; i++) {
