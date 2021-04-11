@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<script type="text/javascript">
+    $(function() {
+
+        $(window).scroll(function() {
+
+            if ($(this).scrollTop() != 0) {
+
+                $('#toTop').fadeIn();
+
+            } else {
+
+                $('#toTop').fadeOut();
+
+            }
+
+        });
+
+        $('#toTop').click(function() {
+
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+
+        });
+
+    });
+</script>
+
+
+<body>
+
+    <section id="2" class="section3">
+        <button onclick="window.location.href = 'index.html';" class="btn">На основную страницу</button>
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptittle">Жан Мелье</h3>
+                <h4 class="section_tittle">"Завещание"</h4>
+
+            </div>
+
+        </div>
+        <div class="inline">
+            <div class="section_text">
+
+                <p class="tit">
+
+                    Жан Мелье — французский философ-материалист, атеист, утопический коммунист, автор известного сочинения «Завещание», опубликованного в трех томах в 1864 г. в Амстердаме. Родился в зажиточной семье сельского ткача. В 23 года Жан Мелье получил сан священника
+                    и в течение 40 лет, до самой смерти в качестве духовного наставника обслуживал приход в деревне Этрепинье. Очень хорошо осведомленный о жизни крестьян, он полностью разделял все то, чем жили, о чем думали, к чему стремились его прихожане.
+                    <br>
+                    <img class="img_ad" src="images/ja.jpg" alt=""> Считая непримиримыми противоречия между народом и «сильными мира сего», Мелье отвергал мысль о «просвещенном государе», служащем обществу. Обличая тиранические порядка абсолютистской
+                    Франции, и видя безысходность положения крестьян, угнетаемых дворянами и духовенством, Мелье призывал народ к революции.<br> В «Завещании» он набросал контуры идеального коммунистического общества, в котором все люди одной местности
+                    объединяются в единую семью-общину с общим владением всеми благами, где все трудятся и любят друг друга, как братья. Тиранические порядки результат того, что у народа нет ясности сознания тяжести своего положения, его причин и своей
+                    силы. Народ обманут и подавлен предрассудками, главную роль среди которых играет религия, которую Мелье подверг разносторонней критике. Он учил, что народ, для которого правители должны быть слугами, установит новый строй с помощью
+                    просвещения, объединения, путем освободительной борьбы (эта революционность отличала воззрения Мелье от идей других утопистов XVIII в.).<br>
+                    <img class="img_ad2" src="images/ja2.jpg" alt=""> Рукопись «Завещание» Мелье предпослал надписью: «Я видел и познал ошибки, заблуждения, бредни, безумства и злодеяния людские. Я почувствовал к ним ненависть и отвращение. Я не осмелился
+                    сказать об этомпри жизни, но я скажу об этом по крайней мере умирая и после смерти. Пусть знают, что я составляю и пишу настоящий труд, чтобы он мог служить свидетельством истины для всех тех, кто его увидит и прочтет, если им будет
+                    угодно»<br> Сочинение Ж. Мелье полностью не публиковалось целых два столетия. В XVIII в. Вольтер составил краткое «Извлечение» из труда Мелье и бесплатно разослал по многим адресам. В 1882 г. А. Гольбах опубликовал книгу «Здравый смысл
+                    кюре Мелье», которая по приговору парижского парламента была сожжена.
+                    <br>
+                </p>
+
+            </div>>
+
+        </div>
+        <div class="abi">
+            <div class="about">
+                <div class="about_item">
+                    <div class="about_img">
+                        <img class="img_add3" src="images/jan.jpg" alt="">
+                    </div>
+                    <div class="about__text">Обложка книги "Завещание"</div>
+                </div>
+                <div class="about_item">
+                    <div class="about_img">
+                        <img class="img_add3" src="images/jan3.jpg" alt="">
+                    </div>
+                    <div class="about__text">Жан Мелье</div>
+                </div>
+                <div class="about_item">
+                    <div class="about_img">
+                        <img class="img_add3" src="images/jan2.jpg" alt="">
+                    </div>
+                    <div class="about__text">Жан Мелье "Завещание"</div>
+                </div>
+
+            </div>
+        </div>
+
+        <DIV ID="toTop"> Наверх </DIV>
+        </div>
+    </section>
+
+</body>
+
+</html>
