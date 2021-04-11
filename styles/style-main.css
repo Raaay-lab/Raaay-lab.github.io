@@ -1,0 +1,444 @@
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    
+    body {
+        background-color: antiquewhite;
+    }
+    
+    h1 {
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: "TT Norms Pro Variable", "Avenir Next", Avenir, arial, sans-serif;
+        font-feature-settings: "pnum";
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 450px;
+        letter-spacing: -0.08ex;
+    }
+    
+    hr {
+        clear: both;
+        visibility: hidden;
+    }
+    
+    .img1 {
+        width: 504px;
+        height: 336px;
+        position: absolute;
+        transition: all ease 1s;
+        border-radius: 10px;
+    }
+    
+    .leftArrow {
+        float: left;
+        margin-top: 5%;
+        border-radius: 10px;
+        width: 45px;
+        height: 35px;
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+    
+    .leftArrow:hover {
+        opacity: 50%;
+    }
+    
+    .rightArrow {
+        float: right;
+        border-radius: 10px;
+        width: 45px;
+        height: 35px;
+        margin-right: 45%;
+        margin-top: 1%;
+    }
+    
+    .rightArrow:hover {
+        opacity: 50%;
+    }
+    
+    .gradient-button {
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        max-width: 100px;
+        padding: 20px 30px;
+        margin: 10px 20px;
+        border-radius: 10px;
+        grid-column: outdent / outdent;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+    }
+    
+    .gradient-button:hover {
+        background-position: right center;
+    }
+    
+    .main-anime {
+        grid-column: fullbleed / fullbleed;
+        display: grid;
+        grid-template-columns: [fullbleed-start] 0px [full-start outdent-start main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr [full-end outdent-end main-end] 0px [fullbleed-end];
+        gap: 24px;
+    }
+    
+    .block1 {
+        grid-column: fullbleed / fullbleed;
+        display: grid;
+        grid-template-columns: [fullbleed-start] 0px [full-start outdent-start main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr [full-end outdent-end main-end] 0px [fullbleed-end];
+        gap: 24px;
+        margin-top: 24px;
+    }
+    
+    .sub-title h2 {
+        text-align: center;
+    }
+    
+    .greeting {
+        grid-column: full / full;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    
+    .greeting h1,
+    .greeting p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .greeting h1 {
+        font-family: "TT Norms Pro Variable", "Avenir Next", Avenir, arial, sans-serif;
+        font-feature-settings: "pnum";
+        font-size: 54px;
+        line-height: 60px;
+        font-weight: 500;
+        letter-spacing: -0.06ex;
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .greeting p {
+        font-family: "TT Norms Pro Variable", "Avenir Next", Avenir, arial, sans-serif;
+        font-feature-settings: "pnum";
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        letter-spacing: -0.06ex;
+        margin-bottom: 24px;
+        opacity: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .divider-1 {
+        padding: 12px 0px;
+        grid-column: full / full;
+    }
+    
+    .divader-2 hr {
+        clear: both;
+        visibility: hidden;
+        grid-column: full / full;
+        padding: 12px 0px
+    }
+    
+    .implement,
+    .back-imp {
+        content: "";
+        position: absolute;
+        top: 24px;
+        bottom: 24px;
+        background: white;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+    
+    .back-imp {
+        grid-column: fullbleed / fullbleed;
+        display: grid;
+        grid-template-columns: [fullbleed-start] 0px [full-start outdent-start main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr [full-end outdent-end main-end] 0px [fullbleed-end];
+        gap: 24px;
+        position: relative;
+    }
+    
+    .kek {
+        grid-column: outdent / outdent;
+        width: 100%;
+    }
+    
+    .section-text1 h2 strong,
+    .section-text2 h2 strong,
+    .section-text3 h2 strong,
+    .section-text4 h2 strong {
+        color: rgb(222, 64, 87);
+    }
+    
+    .sub-title {
+        grid-column: full / full;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    
+    .block2 {
+        grid-column: fullbleed / fullbleed;
+        display: grid;
+        grid-template-columns: [fullbleed-start] 0px [full-start outdent-start main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr [full-end outdent-end main-end] 0px [fullbleed-end];
+        gap: 24px;
+        position: relative;
+    }
+    
+    .section-text1,
+    .section-text2,
+    .section-text3,
+    .section-text4 {
+        grid-column: full / full;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4 {
+        grid-column: outdent / outdent;
+        width: 100%;
+    }
+    
+    .slider1,
+    .slider2,
+    .slider3 {
+        grid-column: outdent / outdent;
+        width: 100%;
+    }
+    
+    .links-main {
+        grid-column: fullbleed / fullbleed;
+        display: grid;
+        grid-template-columns: [fullbleed-start] 0px [full-start outdent-start main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr [full-end outdent-end main-end] 0px [fullbleed-end];
+        gap: 56px;
+        position: relative;
+        background-color: rgb(218, 180, 11);
+    }
+    
+    .nirs {
+        grid-column: full / full;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    
+    .nirs p {
+        margin-top: 1em;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .links {
+        display: grid;
+        grid-column: fullbleed / fullbleed;
+    }
+    
+    #toTop {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        width: 100px;
+        border: 1px solid #ccc;
+        background: #f7f7f7;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        bottom: 10px;
+        /* отступ кнопки от нижнего края страницы*/
+        right: 10px;
+        cursor: pointer;
+        display: none;
+        color: #333;
+        font-size: 1rem;
+    }
+    
+    .butL,
+    .butR {
+        grid-column: outdent / outdent;
+        width: 100%;
+    }
+    
+    @media (min-width: 768px) {
+        .greeting h1 {
+            font-size: 80px;
+            line-height: 78px;
+        }
+        .back-imp {
+            grid-template-columns: [fullbleed-start] 12px [full-start outdent-start] 1fr 1fr [main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr [main-end] 1fr 1fr [full-end outdent-end] 12px [fullbleed-end];
+        }
+        .section-text1 {
+            grid-area: 1 / full / auto / 8;
+        }
+        .section-text2 {
+            grid-area: 1 / full / auto / 8;
+        }
+        .section-text3 {
+            grid-area: 1 / full / auto / 8;
+        }
+        .section-text4 {
+            grid-area: 1 / full / auto / 8;
+        }
+        .pic1,
+        .pic2,
+        .pic3,
+        .pic4 {
+            grid-column: 9 / full;
+        }
+        .butL {
+            grid-column: 7;
+        }
+        .butR {
+            grid-column: 13;
+        }
+        .greeting p {
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 400;
+            letter-spacing: -0.06ex;
+            margin-bottom: 24px;
+            opacity: 75%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sub-title {
+            font-size: 35px;
+            line-height: 45px;
+            font-weight: 400px;
+            letter-spacing: -0.08ex;
+        }
+        .slider1,
+        .slider2,
+        .slider3 {
+            grid-column: 8 / 12;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .back-imp {
+            grid-template-columns: [fullbleed-start] 24px [full-start] 1fr [outdent-start main-start] 1fr 1fr [indent-start] 1fr 1fr 1fr 1fr 1fr 1fr [indent-end] 1fr 1fr [main-end outdent-end] 1fr [full-end] 24px [fullbleed-end];
+            gap: 36px;
+        }
+    }
+    
+    @media (min-width: 1440px) {
+        .greeting h1 {
+            font-size: 120px;
+            line-height: 120px;
+        }
+        .back-imp {
+            grid-template-columns: [fullbleed-start] 24px [full-start] 1fr 1fr [outdent-start] 1fr [main-start] 1fr [indent-start] 1fr 1fr 1fr 1fr [indent-end] 1fr [main-end] 1fr [outdent-end] 1fr 1fr [full-end] 24px [fullbleed-end];
+            gap: 48px;
+        }
+    }
