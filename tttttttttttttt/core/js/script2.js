@@ -1,8 +1,8 @@
 var slides = document.querySelectorAll('.pic2');
 var massImg = [];
 var dl = slides.length;
-var kompanella = "core/index2.html";
-var mor = "core/index6.html";
+var kompanella = "https://raaay-lab.github.io/philosophy/core/index2.html";
+var mor = "https://raaay-lab.github.io/philosophy/core/index6.html";
 
 function createImg2() {
     for (var i = 0; i < slides.length; i++) {
