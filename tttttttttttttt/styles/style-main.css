@@ -445,6 +445,10 @@
             grid-column: 9;
             width: 100%;
         }
+        
+        #toTop {
+            display:none;
+        }
     }
     
     @media (min-width: 1024px) {
